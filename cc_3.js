@@ -38,3 +38,16 @@ let feedbacks = [
 feedbacks.push({customerName: "Josh", feedbackText: "Alright I guess", rating: 3}); // add a new feedback object
 //to the array
 console.log("Entire Feedback List ", feedbacks); //print entire list 
+
+//Task 5: Inventory Management System Scenario: Stock Analysis You are developing a system to track inventory details
+let inventory = {
+    itemName: "Shoehorn",
+    stockCount: 50,
+    price: 5.00,
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    }
+
+}; //inventory object
+console.log(inventory); // print the inventory object details
+console.log ("Total inventory value: ", inventory.calculateTotalValue()); //print the total value of the inventory
